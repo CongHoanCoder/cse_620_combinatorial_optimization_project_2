@@ -1,0 +1,52 @@
+# ==========================================
+# Operating System Files
+# ==========================================
+# macOS clutter
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows clutter
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==========================================
+# Common Development & Log Files
+# ==========================================
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Crash dumps
+*.dmp
+*.stackdump
+
+# ==========================================
+# Package Managers & Dependencies
+# ==========================================
+# Node / Javascript dependencies
+node_modules/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# ==========================================
+# IDEs and Code Editors
+# ==========================================
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+
+# IntelliJ / WebStorm / PyCharm
+.idea/
+
+# Local environment / API keys (NEVER commit secrets!)
+.env
+.env.local
