@@ -1,0 +1,10 @@
+instance,group,generator,m,n,n_ub,n_eq,seed,status,expected_status,objective,pivots,phase1_pivots,phase2_pivots,simplex_time,degenerate,multiple_optima,n_nonzero,sparsity,message,scipy_status,scipy_objective,scipy_time,scipy_nit,objective_match
+lecture_example_n4_m2,task_A,,2,4,2,0,-1,optimal,optimal,37.2,2,0,2,0.00016070799999923224,False,False,2,0.5,optimal solution found,optimal,37.2,0.0007682920000000593,2,True
+infeasible_parallel_constraints,special,,2,2,2,0,-1,infeasible,infeasible,,1,1,0,0.00011091600000057156,False,False,0,0.0,"Phase I: status=optimal, w=-2.000e+00 => no feasible solution",infeasible,,0.00036712499999946857,0,True
+unbounded_ray_d11,special,,2,2,2,0,-1,unbounded,unbounded,,1,0,1,0.00010529100000056246,False,False,0,0.0,Phase II: no finite optimum (unbounded ray exists),unbounded,,0.000548666000000253,1,True
+degenerate_vertex_3active,special,,3,2,3,0,-1,optimal,optimal,18.0,2,0,2,0.00014566699999996047,True,False,1,0.5,optimal solution found,optimal,18.0,0.0008434159999994861,1,True
+multiple_optima_face,special,,3,2,3,0,-1,optimal,optimal,4.0,1,0,1,0.0001380839999995942,True,True,1,0.5,optimal solution found,optimal,4.0,0.0007173750000006862,1,True
+sparse_optimum_m4_n20_s7,special,sparse_optimum,4,20,4,0,-1,optimal,optimal,1.0434064758916994,1,0,1,0.0001451249999995241,False,False,1,0.95,optimal solution found,optimal,1.0434064758916994,0.0006098749999994268,2,True
+sparse_optimum_m6_n50_s11,special,sparse_optimum,6,50,6,0,-1,optimal,optimal,1.2935377022877732,1,0,1,0.00015249999999955577,False,False,1,0.98,optimal solution found,optimal,1.2935377022877732,0.0006373750000001621,1,True
+bounded_base_with_constraint,special,,2,2,2,0,-1,optimal,optimal,4.0,1,0,1,0.00010541699999944143,False,True,1,0.5,optimal solution found,optimal,4.0,0.0005408340000006007,0,True
+unbounded_after_removing_constraint,special,,1,2,1,0,-1,unbounded,unbounded,,0,0,0,8.15830000000517e-05,False,False,0,0.0,Phase II: no finite optimum (unbounded ray exists),unbounded,,0.000505707999999494,0,True

@@ -1,0 +1,2 @@
+instance,group,generator,m,n,n_ub,n_eq,seed,status,expected_status,objective,pivots,phase1_pivots,phase2_pivots,simplex_time,degenerate,multiple_optima,n_nonzero,sparsity,message,scipy_status,scipy_objective,scipy_time,scipy_nit,objective_match
+lecture_example_n4_m2,task_A,,2,4,2,0,-1,optimal,optimal,37.2,2,0,2,0.0002605829999993148,False,False,2,0.5,optimal solution found,optimal,37.2,0.0007397499999974855,2,True
